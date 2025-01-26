@@ -1,7 +1,12 @@
 {
 	"name": "de",
 	"version": "1.0.0",
-	"target": "browser",
+	"targets": {
+		"web": {
+		  "context": "browser",
+		  "publicUrl": "./"
+		}
+	  },
 	"scripts": {
 		"dev": "npx parcel serve src/index.html",
 		"build": "npx parcel build src/index.html"
