@@ -52,3 +52,5 @@ async function roll() {
 document.addEventListener('click', () => {
 	roll();
 });
+
+navigator.wakeLock.request("screen");
