@@ -6,7 +6,6 @@ import { waitNextFrame } from './utils'
 import * as victorySound from '../sound/victory/*.mp3'
 import * as failSound from '../sound/fail/*.mp3'
 
-UnoCard.register();
 
 const rollContainer = document.querySelector('#roll-container')!;
 
