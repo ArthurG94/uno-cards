@@ -3,10 +3,10 @@
 	"version": "1.0.0",
 	"targets": {
 		"web": {
-		  "context": "browser",
-		  "publicUrl": "./"
+			"context": "browser",
+			"publicUrl": "./"
 		}
-	  },
+	},
 	"scripts": {
 		"dev": "npx parcel serve src/index.html",
 		"build": "npx parcel build src/index.html"
@@ -15,9 +15,11 @@
 	"license": "ISC",
 	"description": "",
 	"devDependencies": {
+		"@parcel/packager-raw-url": "^2.13.3",
 		"@parcel/resolver-glob": "^2.13.3",
 		"@parcel/transformer-inline-string": "^2.13.3",
 		"@parcel/transformer-sass": "^2.13.3",
+		"@parcel/transformer-webmanifest": "^2.13.3",
 		"@types/canvas-confetti": "^1.9.0",
 		"@types/lodash": "^4.17.14",
 		"parcel": "^2.13.3",
