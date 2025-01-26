@@ -1,0 +1,11 @@
+{
+	"extends": "@parcel/config-default",
+	"resolvers": ["@parcel/resolver-glob", "..."],
+	"transformers": {
+		"blob-url:*": ["...", "@parcel/transformer-inline"],
+		"*.mp3": ["@parcel/transformer-raw"]
+	  },
+	"optimizers": {
+		"blob-url:*": ["...", "@parcel/optimizer-blob-url"]
+	}
+}
